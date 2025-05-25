@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radessa | Бариста с большой буквы</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="light-back">
+    <section class="main-menu__toggle-menu">
+        <h1 class="main-menu__toggle-title">Меню</h1>
+        <button class="main-menu__toggle-button" onclick="open_main_menu()"><i class="fa-solid fa-bars"></i></button>
+    </section>
+    <nav class="main-menu">
+        <section class="main-menu__container">
+            <ul class="main-menu__links">
+                <li class="main-menu__link">
+                    <a href="#firstscreen">Главная</a>
+                </li>
+                <li class="main-menu__link">
+                    <a href="#about">Обо мне</a>
+                </li>
+                <li class="main-menu__link">
+                    <a href="#map">Локация</a>
+                </li>
+                <li class="main-menu__link">
+                    <a href="#coffee">Меню</a>
+                </li>
+                <li class="main-menu__link">
+                    <a href="#">Статьи</a>
+                </li>
+                <li class="main-menu__link">
+                    <a href="#feedback">Отзывы</a>
+                </li>
+            </ul>
+
+            <div class="main-menu__image-container">
+                <img src="img/coffee__01.webp" alt="картинка с кофе" class="main-menu__image">
+                <h1 class="main-menu__image-container-text">Radessa</h1>
+            </div>
+
+        </section>
+
+    </nav>
+
+
+    <section class="firstscreen" id="firstscreen">
+        <img src="img/coffee__15.webp" alt="кофемолка" class="firstscreen__background">
+        <section class="firstscreen__row firstscreen__row--first">
+            <h1 class="firstscreen__logo">Radessa</h1>
+            <h3 class="firstscreen__text">Твой кофе точно будет приготовлен с любовью</h3>
+        </section>
+        <section class="firstscreen__row" style="align-items: end;">
+            <h3 class="firstscreen__hint">
+                <span class="attention">Напоминание</span>
+                <span class="firstscreen__hint-text">Если вы вежливы с любым баристой, кофе получается вкуснее!</span>
+            </h3>
+            <a href="#" class="firstscreen__read-more">Обо мне</a>
+        </section>
+    </section>
+
+    <section class="about" id="about">
+        <article class="about__text">
+            Привет! Меня зовут Рада, и кофе — моя страсть...
+            мой ритуал и моя профессия. Каждое утро я прихожу в Cafellito
+            не просто за новой сменой, а за возможностью подарить гостям ощущение уюта и тепла: аромат свежемолотых
+            зёрен, мягкий шёпот молочной пенки, терпкий вкус эспрессо…
+            <br><br>
+            Я работала в нескольких уютных кофейнях города, и в каждой находила что-то своё: технику идеального пролива
+            фильтра, тонкости крема для капучино, секреты выбора кофейных бобов. Со временем я стала наставницей –
+            провела мастер-классы для более чем тридцати начинающих бариста и вырастила команду, гордящуюся своим
+            ремеслом. Для меня важно не просто показать, как готовить кофе, но и передать любовь к нему: помочь
+            «прочувствовать» каждую крупицу и понять, откуда берётся его характер.
+            <br><br>
+            Моё особое увлечение — латте-арт. Мне безумно нравится, как из спрессованного молока и пара капель эспрессо
+            рождаются узоры: изящное сердечко, замысловатый цветок или просто плавная линия, ведущая взгляд. Я научилась
+            превращать каждую кружку в маленькое произведение искусства, и видеть улыбки гостей, ловящих этот момент
+            красоты, — для меня лучшая награда.
+            <br><br>
+            Заходите в Cafellito на чашечку моего фирменного латте: обещаю, это будет не просто кофе, а настоящий
+            спектакль вкуса и эстетики, рассказанный от сердца.
+        </article>
+
+    </section>
+    <button class="about__readme" onclick="open_about()">Прочитать полностью</button>
+    <section class="map" id="map">
+        <h1 class="map__title">
+            <span class="map__title-line">Приди к нам</span>
+            <span class="map__title-line">и взбодрись!</span>
+        </h1>
+        <div class="map__container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4756.091377047564!2d69.33027273341726!3d41.32735495013575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef4575dc35b05%3A0xa477821eb3d46a5c!2sCaffelito%20coffee!5e0!3m2!1sru!2s!4v1748077940047!5m2!1sru!2s"
+                class="map__location" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h2 class="map__ads">
+                Привет! Это Рада ☕
+                <br>
+                Я варю кофе прямо здесь — на этой точке на карте
+                <br>
+                Если ты где-то рядом, загляни ко мне
+                <br>
+                Я приготовлю тебе самый нежный капучино или бодрящий эспрессо, как ты любишь
+                <br>
+                У нас уютно, тепло и всегда пахнет чем-то хорошим
+                <br>
+                Ты точно не пожалеешь — я жду тебя
+            </h2>
+            <h2 class="map__text-of-address">
+                Буюк Ипак Йули, 156, Ташкент, Узбекистан
+            </h2>
+            <div class="bubble-items">
+                <h1 class="bubble-items__item">Уют</h1>
+                <h1 class="bubble-items__item">Красота</h1>
+                <h1 class="bubble-items__item">Рецепты</h1>
+                <h1 class="bubble-items__item">Пожелания</h1>
+                <h1 class="bubble-items__item">Удобство</h1>
+                <h1 class="bubble-items__item">Кофе</h1>
+                <h1 class="bubble-items__item">Приятный разговор</h1>
+            </div>
+        </div>
+    </section>
+    <section class="coffee" id="menu">
+        <h1 class="coffee__title">
+            <span class="coffee__title-line">У меня ты можешь</span>
+            <span class="coffee__title-line">заказать...</span>
+        </h1>
+        <div class="coffee__item" data-preview="img/coffee__03.webp">
+            <h1 class="coffee__number">01.</h1>
+            <h1 class="coffee__name">Капучино 300мл</h1>
+            <h1 class="coffee__price">24 000 сум</h1>
+        </div>
+        <div class="coffee__item" data-preview="img/coffee__04.webp">
+            <h1 class="coffee__number">02.</h1>
+            <h1 class="coffee__name">Капучино 400мл</h1>
+            <h1 class="coffee__price">28 000 сум</h1>
+        </div>
+        <div class="coffee__item" data-preview="img/coffee__05.webp">
+            <h1 class="coffee__number">03.</h1>
+            <h1 class="coffee__name">Капучино 500мл</h1>
+            <h1 class="coffee__price">32 000 сум</h1>
+        </div>
+        <div class="coffee__item" data-preview="img/coffee__06.webp">
+            <h1 class="coffee__number">04.</h1>
+            <h1 class="coffee__name">Латте 300мл</h1>
+            <h1 class="coffee__price">26 000 сум</h1>
+        </div>
+        <div class="coffee__item" data-preview="img/coffee__07.webp">
+            <h1 class="coffee__number">05.</h1>
+            <h1 class="coffee__name">Латте 400мл</h1>
+            <h1 class="coffee__price">30 000 сум</h1>
+        </div>
+        <div class="coffee__item" data-preview="img/coffee__08.webp">
+            <h1 class="coffee__number">06.</h1>
+            <h1 class="coffee__name">Латте 500мл</h1>
+            <h1 class="coffee__price">34 000 сум</h1>
+        </div>
+        <div class="coffee__item" data-preview="img/coffee__09.webp">
+            <h1 class="coffee__number">07.</h1>
+            <h1 class="coffee__name">Флэт уайт</h1>
+            <h1 class="coffee__price">26 000 сум</h1>
+        </div>
+        <div class="coffee__item" data-preview="img/coffee__10.webp">
+            <h1 class="coffee__number">08.</h1>
+            <h1 class="coffee__name">Американо</h1>
+            <h1 class="coffee__price">20 000 сум</h1>
+        </div>
+        <div class="coffee__item" data-preview="img/coffee__11.webp">
+            <h1 class="coffee__number">09.</h1>
+            <h1 class="coffee__name">Эспрессо</h1>
+            <h1 class="coffee__price">18 000 сум</h1>
+        </div>
+        <div class="coffee__item" data-preview="img/coffee__12.webp">
+            <h1 class="coffee__number">10.</h1>
+            <h1 class="coffee__name">Раф с лавандой</h1>
+            <h1 class="coffee__price">32 000 сум</h1>
+        </div>
+        <div class="coffee__item" data-preview="img/coffee__13.webp">
+            <h1 class="coffee__number">11.</h1>
+            <h1 class="coffee__name">Какао на молоке</h1>
+            <h1 class="coffee__price">25 000 сум</h1>
+        </div>
+        <div class="coffee__item" data-preview="img/coffee__14.webp">
+            <h1 class="coffee__number">12.</h1>
+            <h1 class="coffee__name">Мокко</h1>
+            <h1 class="coffee__price">30 000 сум</h1>
+        </div>
+    </section>
+
+    <section class="feedback" id="feedback">
+        <h1 class="feedback__title">
+            <span class="feedback__title-line">Мои гости</span>
+            <span class="feedback__title-line">оставили отзывы...</span>
+        </h1>
+        <div class="feedback__item">
+            <h1 class="feedback__text">“Наверное, лучший капучино в городе! Каждое утро захожу к Радe в Cafellito – её
+                кофе бодрит и греет душу. Очень приветливая хозяйка, сразу чувствуешь себя как дома.”</h1>
+            <h1 class="feedback__name">Иван Петров</h1>
+        </div>
+        <div class="feedback__item">
+            <h1 class="feedback__text">“Рада – настоящий профессионал. Её латте-арт – настоящее искусство, а вкус кофе
+                всегда стабильный и насыщенный. Рекомендую всем, кто ценит качество и уют.”</h1>
+            <h1 class="feedback__name">Анна Смирнова</h1>
+        </div>
+        <div class="feedback__item">
+            <h1 class="feedback__text">“Побывал в Cafellito по совету друзей и не пожалел. Рада отлично знает, чем
+                удивить: ароматный эспрессо, нежнейший раф и теплая улыбка хозяйки. Возвращаюсь сюда снова и снова.”
+            </h1>
+            <h1 class="feedback__name">Дмитрий Кузнецов</h1>
+        </div>
+        <div class="feedback__item">
+            <h1 class="feedback__text">“Люблю латте-арт, и у Рады он получился великолепным. Каждый рисунок удивляет
+                мастерством. А кофе такой бархатный, что хочется возвращаться снова.”</h1>
+            <h1 class="feedback__name">Малика Исмаилова</h1>
+        </div>
+
+    </section>
+    <footer class="footer">
+        <h1 class="footer__name">Radessa</h1>
+        <ul class="footer__links">
+            <li class="footer__link">
+                <a href="#">Главная</a>
+            </li>
+            <li class="footer__link">
+                <a href="#">Обо мне</a>
+            </li>
+            <li class="footer__link">
+                <a href="#">Локация</a>
+            </li>
+            <li class="footer__link">
+                <a href="#">Меню</a>
+            </li>
+            <li class="footer__link">
+                <a href="#">Статьи</a>
+            </li>
+            <li class="footer__link">
+                <a href="#">Отзывы</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+<script src="https://unpkg.com/split-type"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="https://kit.fontawesome.com/8f446d19ac.js" crossorigin="anonymous"></script>
+<script src="
+https://cdn.jsdelivr.net/npm/lenis@1.3.3/dist/lenis.min.js
+"></script>
+<script src="js/scripts.js"></script>
+
+</html>
